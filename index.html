@@ -1,0 +1,63 @@
+<!-- index.html: The main entry point of the site -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#features">Features</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <h1 class="hero-title">Welcome to our landing page</h1>
+        <p class="hero-description">A simple, responsive landing page built with HTML, CSS, and JavaScript.</p>
+        <button class="hero-button" id="learn-more">Learn More</button>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <h2 class="about-title">About Us</h2>
+        <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+    </section>
+
+    <!-- Features section -->
+    <section class="features" id="features">
+        <h2 class="features-title">Features</h2>
+        <ul class="features-list">
+            <li class="features-item">Responsive design</li>
+            <li class="features-item">Smooth animations and transitions</li>
+            <li class="features-item">Error handling and user feedback</li>
+        </ul>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2 class="contact-title">Get in Touch</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button class="contact-button" id="submit-form">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Static Landing Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
